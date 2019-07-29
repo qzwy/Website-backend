@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:application.yml")
 public class SmsConfig {
 
     //阿里云短信参数
