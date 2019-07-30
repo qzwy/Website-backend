@@ -28,16 +28,4 @@ public class User implements Serializable {
     private String nickName;
     @Column(nullable = false)
     private String regTime;
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", UserName='" + userName + '\'' +
-                ", passWord='" + passWord + '\'' +
-                ", email='" + email + '\'' +
-                ", nickName='" + nickName + '\'' +
-                ", regTime='" + regTime + '\'' +
-                '}';
-    }
 }
