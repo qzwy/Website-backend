@@ -12,7 +12,7 @@ spring:
 aliyun:
   message:
     region_id: default
-    access_key_id: LTAI329Jq5pUvIKa
+    access_key_id: xxxxxx
     secret: f6W3Q3nyq1G7haF403iJSiXL9y0muy
     template_code: SMS_160861359
     sign_name: ͬ统一用户管理系统
